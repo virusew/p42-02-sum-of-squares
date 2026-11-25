@@ -5,8 +5,12 @@ class Program
     // Верните сумму квадратов 1² + 2² + ... + n²
     static int SumOfSquares(int n)
     {
-        // TODO: напишите решение здесь
-        return 0;
+        int sum = 0;
+        for (int i = 1; i <= n; i++)
+        {
+            sum += i * i;
+        }
+        return sum;
     }
 
     static void Main()
